@@ -23,7 +23,7 @@ const userScheme = new Schema({
         minlength: 6,
         required: true,
     },
-    role: {
+    roles: {
         type: [String],
         required: true,
         default: ['STUDENT']
